@@ -5,147 +5,166 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400i" rel="stylesheet"> 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			  crossorigin="anonymous"></script>
-    
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400i" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+	 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!--NavBar-->
-<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
-	<nav class="navbar navbar-default bg-primary navbar-fixed-top" id="mainBar">
-		
+	<!--NavBar-->
+	<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand">My Portfolio</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">My Portfolio</a>
 			</div>
-			<!-- Menu Items -->
-			<div>
-				<ul class="nav navbar-nav">
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
 					<li id="navHome" class="active"><a id="navAbout" href="#linkAbout">About</a></li>
 					<li><a id="navPortfolio" href="#linkPortfolio">Portfolio</a></li>
 					<li><a id="navContacts" href="#linkContacts">Contacts</a></li>
-			</div>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
 	</nav>
-    <!--Body-->
-	
-  <div class="container fill">
-    <a class="bodyLink" name="linkAbout"></a>
-  <!--About Me-->
-			<section class="row" id="about">
-				<div class="center-block" id="aboutMe">
-					<div class="col-lg-1 col-md-1 col-sm-1"></div>
-					<div id="aboutLines" class="col-lg-7 col-md-7 col-sm-7">
-						<h2 class="display-1">sa666u</h2>
-						<hr>&nbsp;&nbsp;<i class="sectionIcons glyphicon glyphicon-user"></i>&nbsp;&nbsp;
-						<hr>
-            	<div id="aboutExperience">
+	<!--Body-->
+
+	<div class="container fill">
+		<a class="bodyLink" name="linkAbout"></a>
+		<!--About Me-->
+		<section class="row" id="about">
+			<div class="center-block col-lg-12 col-md-12 col-sm-12 col-xs-12" id="aboutMe">
+				<div id="aboutLines" class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+					<h2 class="display-1">sa666u</h2>
+					<hr>&nbsp;&nbsp;<i class="sectionIcons glyphicon glyphicon-user"></i>&nbsp;&nbsp;
+					<hr>
+					<div id="aboutExperience">
 						<p>Branding,marketing and web design</br>Experience in the private and public sector</p>
 					</div>
-					</div>
-					
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<img class="img-responsive img-circle" src="https://s-media-cache-ak0.pinimg.com/originals/44/2d/4e/442d4e3e9a693f2488a640436ceffc39.jpg">
-					</div>
-					<div class="col-lg-1 col-md-1 col-sm-1"></div>
 				</div>
-			</section>
 
-			<!--Portfolio-->
-			<a class="bodyLink" name="linkPortfolio"></a>
-			<section class="row" id="portfolio">
-				<div class="center-block container-fluid" id="myExperience">
-					<div id="portfolioLines" class="col-lg-12">
-						<h2>Portfolio</h2>
-						<hr> &nbsp;&nbsp;
-						<i class="sectionIcons fa fa-suitcase"></i>&nbsp;&nbsp;
+				<div id="image" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<img class="img-responsive img-circle" src="https://s-media-cache-ak0.pinimg.com/originals/44/2d/4e/442d4e3e9a693f2488a640436ceffc39.jpg">
+				</div>
+			</div>
+		</section>
+
+		<!--Portfolio-->
+		<a class="bodyLink" name="linkPortfolio"></a>
+		<section class="row" id="portfolio">
+			<div class="center-block container-fluid" id="myExperience">
+				<div id="portfolioLines" class="col-lg-12">
+					<h2>Portfolio</h2>
+					<hr> &nbsp;&nbsp;
+					<i class="sectionIcons fa fa-suitcase"></i>&nbsp;&nbsp;
+					<hr>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<h4>Industries</h4>
+						<ul>
+							<li>Telecom</li>
+							<li>Retail</li>
+							<li>Healthcare</li>
+						</ul>
+						<h4>Business Experience</h4>
+						<ul>
+							<li>Product marketing</li>
+							<li>Branding</li>
+							<li>Media buying</li>
+							<li>Trade marketing</li>
+							<li>Event management</li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<h4>IT Experience</h4>
+						<ul>
+							<li>Linux</li>
+							<li>Virtualisation</li>
+							<li>Cloud technologies</li>
+							<li>Web design</li>
+							<li>Python</li>
+						</ul>
+						<h4>Related Experience</h4>
+						<ul>
+							<li>Image and video editing</li>
+							<li>E-Marketing</li>
+							<li>Driving license</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Contacts-->
+		<a class="bodyLink" name="linkContacts"></a>
+		<section class="row" id="contacts">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div id="myContacts">
+					<div id="contactLines">
+						<h2>Contacts</h2>
+						<hr>&nbsp;&nbsp;
+						<i class="sectionIcons fa fa-envelope"></i> &nbsp;&nbsp;
 						<hr>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<h4>Industries</h4>
-							<ul>
-								<li>Telecom</li>
-								<li>Retail</li>
-								<li>Healthcare</li>
-							</ul>
-							<h4>Business Experience</h4>
-							<ul>
-								<li>Product marketing</li>
-								<li>Branding</li>
-								<li>Media buying</li>
-								<li>Trade marketing</li>
-								<li>Event management</li>
-							</ul>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<h4>IT Experience</h4>
-							<ul>
-								<li>Linux</li>
-								<li>Virtualisation</li>
-								<li>Cloud technologies</li>
-								<li>Web design</li>
-								<li>Python</li>
-							</ul>
-							<h4>Related Experience</h4>
-							<ul>
-								<li>Image and video editing</li>
-								<li>E-Marketing</li>
-								<li>Driving license</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<div id="form">
+								<form action="/action_page.php">
+									<p class="socialText">E-Mail</p>
+									<input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name.."></br>
 
-			<!--Contacts-->
-    <a class="bodyLink" name="linkContacts"></a>
-			<section class="row" id="contacts">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div id="myContacts">
-						<div id="contactLines">
-							<h2>Contacts</h2>
-							<hr>&nbsp;&nbsp;
-							<i class="sectionIcons fa fa-envelope"></i> &nbsp;&nbsp;
-							<hr>
-						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="col-lg-8 col-md-8 col-sm-8">
-								<div id="form">
-									<form action="/action_page.php">
-										<p class="socialText">E-Mail</p>
-										<input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name.."></br>
+									<input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name.."></br>
 
-										<input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name.."></br>
-
-										<textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px"></textarea></br>
-								</div>
-								<input class="btn center-block" type="submit" value="Submit">
+									<textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px"></textarea></br>
+							</div>
+							<input class="btn center-block" type="submit" value="Submit">
 
 								</form>
-							</div>
-							<div class="social col-lg-4 col-md-4 col-sm-4">
-<div class="socialBackground">
-  <p class="socialText">Contact me on social</p>
-<a href="#"><i class="fa fa-facebook-square socialIcons"></i></a>
-									<a href="#"><i class="fa fa-twitter-square socialIcons"></i></a>
-									<a href="#"><i class="fa fa-linkedin-square socialIcons"></i></a>
-              </div>
+						</div>
+						<div class="social col-lg-4 col-md-4 col-sm-4">
+							<div class="socialBackground">
+								<p class="socialText">Contact me on social</p>
+								<a href="#"><i class="fa fa-facebook-square socialIcons"></i></a>
+								<a href="#"><i class="fa fa-twitter-square socialIcons"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square socialIcons"></i></a>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
-			</section>
-  </div>
-  <script type="text/javascript" src="script.js"></script>
-  </body>
+		</section>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+window.sr = ScrollReveal();
+sr.reveal('#about', {
+	duration:2000,
+});
+sr.reveal('#portfolio', {
+	duration:2000,
+});
+sr.reveal('#contacts', {
+	duration:2000,
+});
+	</script>
+	<script src="https://rawgit.com/maciej-gurban/responsive-bootstrap-toolkit/master/dist/bootstrap-toolkit.min.js"></script>
+</body>
