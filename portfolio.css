@@ -85,7 +85,7 @@ body {
 #contacts {
 	background-color: #d1daef;
 	color: #686d77;
-	height:110%;
+	height:110% !important;
 }
 
 #myContacts {
