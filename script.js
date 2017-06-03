@@ -65,17 +65,17 @@ $('.nav.navbar-nav > li').on('click', function(e) {
 
 
 $("#navContacts").click(function(){
-	$("#myContacts").css("display", "none").show(1500);
+	$("#myContacts").css("display", "none").delay(400).show(1200);
 });
 
 
 $("#navPortfolio").click(function(){
 
-	$("#myExperience").delay("fast").css("display", "none").show(1200);
+	$("#myExperience").delay(400).css("display", "none").show(1200);
 });
 
 $("#navAbout").click(function(){
-	$("#aboutMe").delay("fast").css("display", "none").show(1200);
+	$("#aboutMe").delay(400).css("display", "none").show(1200);
 });
 
 $( document ).ready(function() {
